@@ -33,7 +33,7 @@ jobs:
           az deployment sub create \
             --location westeurope \
             --template-file bicep/main.bicep \
-            --parameters containerRegistryId=${{ secrets_REGISTRY_ID }} spnObjectId=${{ secrets.AZURE_OBJECT_ID }} resourceGroupName=${{ secrets.AZURE_RESOURCE_GROUP }} workspaceName=${{ secrets.AZURE_WORKSPACE_NAME }} clusterName=gpu-cluster storageAccountName=mlopsstorageacct0026
+            --parameters containerRegistryId=${{ secrets.REGISTRY_ID }} spnObjectId=${{ secrets.AZURE_OBJECT_ID }} resourceGroupName=${{ secrets.AZURE_RESOURCE_GROUP }} workspaceName=${{ secrets.AZURE_WORKSPACE_NAME }} clusterName=gpu-cluster storageAccountName=mlopsstorageacct0026
         env:
           AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
 
