@@ -1,0 +1,5 @@
+baselineDataset: baseline-data
+targetDataset: new-data
+frequency: daily
+alertConfig:
+  email: your-email@example.com

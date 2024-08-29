@@ -1,0 +1,5 @@
+{
+    "subscription_id": "4a44186b-b79f-49a7-bfb9-45a2fdc5ee54",
+    "resource_group": "mlops-rg",
+    "workspace_name": "mlops-aml-ws"
+}

@@ -1,0 +1,11 @@
+name: my-ml-env
+dependencies:
+  - python=3.8
+  - pip:
+      - pandas
+      - numpy
+      - tensorflow
+      - scikit-learn
+      - azureml-inference-server-http
+      - mlflow
+      - azureml-mlflow

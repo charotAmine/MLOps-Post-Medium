@@ -1,0 +1,5 @@
+entryScript: score.py
+environment:
+  name: my-ml-env
+  docker:
+    baseImage: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
